@@ -89,7 +89,7 @@ button:focus {
 
 .navbar-toggler span {
   display: block !important;
-  background-color: #be50f4 !important;
+  background-color: #3583f8 !important;
   height: 4px !important;
   width: 27px !important;
   margin-top: 5px !important;
@@ -343,7 +343,7 @@ button:focus {
 .home-about-social-links {
   justify-content: center !important;
   padding-top: 15px !important;
-  display: inline-block !important;
+  display: flex !important;
   position: relative !important;
   padding-inline-start: 0 !important;
 }

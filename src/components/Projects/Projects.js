@@ -9,7 +9,9 @@ import snailhouse from "../../Assets/Projects/snailhouse.png";
 import snailhousedao from '../../Assets/Projects/snailhousedao.png'
 import minigame from "../../Assets/Projects/minigame.jpg";
 import bitsOfCode from "../../Assets/Projects/blog.png";
-
+import votebattle from '../../Assets/Projects/photo_2022-11-22_17-33-36.jpg'
+import phone_mall from '../../Assets/Projects/phone_mall.png'
+import toidireview from '../../Assets/Projects/toidireviews.png'
 function Projects() {
   return (
     <Container fluid className="project-section">
@@ -24,15 +26,35 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={snailhouse}
+              imgPath={toidireview}
               isBlog={false}
               isGithub={false}
-              title="Snailhouse Market"
-              description="Snail house is the world's first and largest NFT marketplace.
-              Build with VueJs Web3js Boostrap and Css
-              "
+              title="Tôi Đi Reviews"
+              description="Project build width ReactJs CharkraUi Redux ExpressJS"
+              ghLink="https://github.com/nguyenloc120299/toidireviews"
+              demoLink="https://toidireviews.onrender.com/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={votebattle}
+              isBlog={false}
+              isGithub={false}
+              title="Vote Battle"
+              description="Project build width ReactJS Tailwindcss DaisyUI Web3Js NesJs"
               // ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://snailhouse.io/"
+              demoLink="https://votebattle.winery.finance/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={"https://poolsmobility.com/static/media/img.20771f67638693241d29.png"}
+              isBlog={false}
+              isGithub={false}
+              title="POOLS PHONE Pre-Order"
+              description="Project build width ReactJS Boostrap AntDesign Web3Js "
+              // ghLink="https://github.com/soumyajit4419/Chatify"
+              demoLink="https://mall.poolsmobility.com/"
             />
           </Col>
           <Col md={4} className="project-card">
@@ -41,9 +63,9 @@ function Projects() {
               isBlog={false}
               isGithub={false}
               title="Snailhouse Dao"
-              description="SNAILHOUSE DAO is a decentralized platform available on the Binance Smart Chain based on the Snail token, creating a diverse ecosystem of NFT DeFi through a decentralized autonomous organization (DAO).Project build width ReactJs Web3JS Ant Design Redux Toolkit Styled Component"
+              description="Project build width ReactJs, Web3JS AntDesign Redux Toolkit Styled Component "
               // ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="dao.snailhouse.io"
+              demoLink="https://dao.snailhouse.io/"
             />
           </Col>
           <Col md={4} className="project-card">
@@ -52,11 +74,12 @@ function Projects() {
               isBlog={false}
               isGithub={false}
               title="Mini game"
-              description="Coin collecting game with points build with Canvas"
+              description="Project build width Canvas HTML5 JS "
               // ghLink="https://github.com/soumyajit4419/Chatify"
               demoLink="https://rpsgame.world/Catch-The-Token-Minigame"
             />
           </Col>
+
           {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={snailhousedao}

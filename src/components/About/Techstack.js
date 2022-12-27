@@ -8,9 +8,17 @@ import {
   DiGit,
 } from "react-icons/di";
 import { FaVuejs } from 'react-icons/fa'
+
 import {
   SiFirebase,
   SiNextdotjs,
+  SiTailwindcss,
+  SiBootstrap,
+  SiExpress,
+  SiMysql,
+  SiRedux,
+  SiEthereum,
+  SiAntdesign
 } from "react-icons/si";
 
 function Techstack() {
@@ -29,10 +37,34 @@ function Techstack() {
         <FaVuejs />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
+        <SiNextdotjs />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiExpress />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
         <DiMongodb />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiNextdotjs />
+        <SiMysql />
+      </Col>
+
+      <Col xs={4} md={2} className="tech-icons">
+        <SiRedux />
+      </Col>
+
+      <Col xs={4} md={2} className="tech-icons">
+        <SiEthereum />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiTailwindcss />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiBootstrap />
+      </Col>
+
+      <Col xs={4} md={2} className="tech-icons">
+        <SiAntdesign />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiGit />
@@ -40,6 +72,7 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <SiFirebase />
       </Col>
+
     </Row>
   );
 }
