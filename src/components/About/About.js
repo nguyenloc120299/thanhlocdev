@@ -28,7 +28,7 @@ function About() {
             style={{ paddingTop: "120px", paddingBottom: "50px" }}
             className="about-img"
           >
-            <img src={laptopImg} alt="about" className="img-fluid" />
+            <img src={"https://doodleipsum.com/700/flat?i=c2a3b28fed2bb5d5690e9bab3ff2dce1"} alt="about" className="img-fluid" />
           </Col>
         </Row>
         <h1 className="project-heading">
